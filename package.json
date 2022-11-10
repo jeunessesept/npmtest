@@ -1,0 +1,22 @@
+{
+  "name": "nmptest",
+  "version": "1.0.0",
+  "description": "testing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html"
+  },
+  "author": "jacinthe",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mapbox-gl": "^2.10.0",
+    "parcel": "^2.8.0"
+  },
+  "devDependencies": {
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  }
+}
